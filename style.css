@@ -18,6 +18,7 @@ body {
     body {
         overflow-x: hidden;
         grid-template-rows: 40% 60%;
+        row-gap: 20px;
     }   
     .wrapper {
        height: 100%;

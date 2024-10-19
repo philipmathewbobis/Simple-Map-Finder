@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1 class="title">simple map finder</h1>
+        <div class="search-box">
+            <input type="text" name="searchBar" id="search" placeholder="Enter address">
+        </div>
+        <div class="submit">
+            <a class="submit-button" href="#" onclick="findMap()">Submit</a>
+        </div>
+    </div>
+
+
+    <iframe id="google-map" width="600" height="450" style="border:0" loading="lazy" allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAWTURhSrIafR5v0cYdm9kXOEkdg8A-fIs
+        &q=address">
+    </iframe>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

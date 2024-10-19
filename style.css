@@ -29,13 +29,14 @@ body {
        width: 100%;
        padding: 0 10px;
        row-gap: 13px;
+       box-sizing: border-box;
     }
 
     #google-map{
-        width: 80%;
+        width: 100%;
         border-radius: 15px;
         margin-top: 10px;
-        max-height: 350px;
+        max-height: 300px;
         flex-grow: 1;
     }
 
@@ -50,8 +51,9 @@ body {
     }
 
     .submit {
-        place-self: center;
-        margin: 20px 0;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
     }
 }
 
